@@ -1,0 +1,8 @@
+<?php
+
+namespace App\{{ Namespace }};
+
+class {{ ClassName }}
+{
+	
+}
