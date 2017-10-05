@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     /*
     |--------------------------------------------------------------------------
     | Repository Directory
@@ -10,7 +11,6 @@ return [
     | ex: app/nuworksinteractive/app/Repositories
     |
     */
-   
     'repository_directory' => '',
 
 ];

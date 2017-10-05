@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "NuWorks\\Generator\\": "src/"
+            "NuWorks\\PatternGenerator\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -28,7 +28,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "NuWorks\\Generator\\": "src/"
+                        "NuWorks\\PatternGenerator\\": "src/"
                     }
                 }
             }  

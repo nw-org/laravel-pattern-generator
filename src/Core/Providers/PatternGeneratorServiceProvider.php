@@ -1,6 +1,6 @@
 <?php
 
-namespace NuWorks\Generator;
+namespace NuWorks\PatternGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
