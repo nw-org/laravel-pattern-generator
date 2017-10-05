@@ -6,11 +6,11 @@ use Illuminate\Support\ServiceProvider;
 
 class NWGeneratorServiceProvider extends ServiceProvider
 {
-	/**
-	 * Bootstrap the application services.
-	 * 
-	 * @return  void
-	 */
+    /**
+     * Bootstrap the application services.
+     * 
+     * @return  void
+     */
     public function boot()
     {
         $this->publishes([
@@ -18,21 +18,21 @@ class NWGeneratorServiceProvider extends ServiceProvider
         ]);
     }
 
-	/**
-	 * Register the application services.
-	 * 
-	 * @return  void
-	 */
+    /**
+     * Register the application services.
+     * 
+     * @return  void
+     */
     public function register()
     {
         $this->registerRepositoryGenerator();
     }
 
-	/**
-	 * Register the make:repository command.
-	 * 
-	 * @return  void
-	 */
+    /**
+     * Register the make:repository command.
+     * 
+     * @return  void
+     */
     public function registerRepositoryGenerator()
     {
         $this->app->singleton('command.nuworks.repository', function($app) {

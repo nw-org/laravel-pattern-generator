@@ -1,5 +1,37 @@
 {
-    "name": "nuworks/generator",
-    "type": "library",
-    "require": {}
+    "name": "nw-org/laravel-pattern-generator",
+    "type": "package",
+    "description": "Laravel Pattern Generator",
+    "keywords": ["PHP", "Laravel", "Pattern Generator"],
+    "homepage": "https://github.com/nw-org/laravel-pattern-generator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NuWorks\\Generator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.2",
+        "nw-org/laravel-pattern-generator": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "nw-org/laravel-pattern-generator",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/nw-org/laravel-pattern-generator",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "NuWorks\\Generator\\": "src/"
+                    }
+                }
+            }  
+        }
+    ]
 }

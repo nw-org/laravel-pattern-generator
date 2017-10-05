@@ -4,7 +4,7 @@ namespace NuWorks\Generator\Helpers;
 
 trait HelperTrait
 {
-	/**
+    /**
      * Get the ClassName.
      * 
      * @param  string  $value  String to be fix
@@ -16,7 +16,7 @@ trait HelperTrait
         return str_replace('.php', '', $value);
     }
 
-	/**
+    /**
      * Transforms the namespaces to ucfirst
      * 
      * @param  array  $value  Value to be iterated
